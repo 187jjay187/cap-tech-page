@@ -34,7 +34,7 @@
 
 ## Live Demo
 
-- [Live link](https://)
+- [Live link](https://https://187jjay187.github.io/cap-tech-page/)
 
 ## Getting Started
 
