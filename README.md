@@ -34,7 +34,7 @@
 
 ## Live Demo
 
-- [Live link](https://https://187jjay187.github.io/cap-tech-page/)
+- [Live link](https://187jjay187.github.io/cap-tech-page/)
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ To get a local copy up and running follow these simple example steps.
 Browser and git
 
 ### Install
-git clone https://github.com/Shaheryar0054/First-Capstone-Project
+git clone https://github.com/187jjay187/cap-tech-page
 
 ### Usage
 Open in browser
