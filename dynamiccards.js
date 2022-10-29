@@ -49,10 +49,10 @@ function displayCards() {
         <img src="${card.img}">
       </div>
       <div>
-        <h3 class="fw-bold fs-500">${card.name}</h3>
+        <h3 class="fw-bold fs-600">${card.name}</h3>
+        <h3 class="card-italic text-accent-400 fw-bold">${card.title}</h3>
         <div class="title-indicator"></div>
-        <h3 class="text-accent-400 fw-bold">${card.title}</h3>
-        <p class="">${card.des}</p>
+        <p class="card-description">${card.des}</p>
       </div>
     </div>`;
   });

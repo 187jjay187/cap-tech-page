@@ -15,8 +15,8 @@
 <!-- settings and social media nav starts here -->
 
 <body>
-  <div class="first-nav-wrap">
-    <div class=" first-nav">
+  <!-- <div class="first-nav-wrap">
+    <div class="container first-nav">
       <ul class="settings-and-social-list">
         <li><a href="#"><img src="img/twitterlogo.png" alt="twitter-icon"></a></li>
         <li><a href="#"><img src="img/linkedinlogo.png" alt="linkedin-icon"></a></li>
@@ -26,12 +26,26 @@
       </ul>
      </div>
     </div>
-  
+   -->
+
+   
     <!-- settings and social media nav ends here -->
 
     <!-- main header starts here -->
 
-  <header class=" main-header-container flex">
+  <header>
+    <div class="first-nav-wrap">
+    <div class="container first-nav">
+      <ul class="settings-and-social-list">
+        <li><a href="#"><img src="img/twitterlogo.png" alt="twitter-icon"></a></li>
+        <li><a href="#"><img src="img/linkedinlogo.png" alt="linkedin-icon"></a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My page</a></li>
+          <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="container main-header-container flex">
    <div>
      <a href="index.html"><img class="logo" src="img/newslogo.png" alt="logo" /></a>
    </div>
@@ -57,17 +71,22 @@
 
   <main>
     <section id="hero-container">
+      <div class="container">
         <div>
             <h2 class="fs-secondary-heading fw-bold text-accent-400 ">"Welcome to Div News"</h2>
             <div class="hero-headline-title">  
-            <h1 class="hero-headline-title text-accent-400 ">Your number one source <br>for Tech related news</h1>
+            <h1 class="hero-headline-title text-accent-400 ">YOUR NUMBER ONE SOURCE <br>FOR TECH RELATED<br> NEWS</h1>
           </div>
           
           <div class="blog-updates">
             <p class="fs-600">Stay up to date with the latest in tech simply, by bookmarking our page to get notifications and <br> stay in the loop on all the tech trends.</p>
           </div>
-            <h2 class="fs-secondary-heading text-neutral-100 fw-bold ">Updated: Mon - Fri</h2>
-            <h3 class="fs-600 text-neutral-900">bookmark us and stay in the loop</h2>
+          <div class="blog-dates1" class="text-neutral-100 fw-bold ">UPDATED: (MON) - (FRI)</h2>
+          </div>
+          <div class="blog-dates2">
+            <h2 class="fs-600 text-neutral-900">bookmark us and stay in the loop</h2>
+          </div>
+            </div>
           </div>
         </div>
       </div>
@@ -86,27 +105,27 @@
         <div class="tech-topics-container">
           <div class="tech-topics-card">
             <img class="tech-logo" src="img/html-5.png" alt="Html-logo">
-            <h3 class="fw-bold fs-500">HTML</h3>
+            <h3 class="fw-bold fs-500 text-accent-400">HTML</h3>
             <p class="tech-topic-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
           <div class="tech-topics-card">
             <img class="tech-logo"src="img/css-3.png" alt="Css-logo">
-            <h3 class="fw-bold fs-500">CSS</h3>
+            <h3 class="fw-bold fs-500 text-accent-400">CSS</h3>
             <p class="tech-topic-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
           <div class="tech-topics-card">
             <img class="tech-logo" src="img/bootstrap.png" alt="bootstrap-logo">
-            <h3 class="fw-bold fs-500">Bootstrap</h3>
+            <h3 class="fw-bold fs-500 text-accent-400">Bootstrap</h3>
             <p class="tech-topic-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
           <div class="tech-topics-card">
             <img class="tech-logo" src="img/js.png" alt="js-logo">
-            <h3 class="fw-bold fs-500">JavaScript</h3>
+            <h3 class="fw-bold fs-500 text-accent-400">JavaScript</h3>
             <p class="tech-topic-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
           <div class="tech-topics-card">
             <img  class="tech-logo" src="img/java.png" alt="java-logo">
-            <h3 class="fw-bold fs-500">Java</h3>
+            <h3 class="fw-bold fs-500 text-accent-400">Java</h3>
             <p class="tech-topic-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
@@ -121,9 +140,10 @@
 
       <!-- contributors section starts here -->
 
-    <section id="contributors">
+    <section class="contributors ">
+      <div class="container ">
         <div>
-          <h2 class="title title fs-700 text-neutral-900 fw-semi-bold">Top contributors</h2>
+          <h2 class="title fs-700 text-neutral-900 fw-semi-bold">Top contributors</h2>
           <div class="indicator"></div>
         </div>
         <div class="contributors-container">
@@ -139,7 +159,7 @@
       <div id="main-sponsors">
       <div class="container">
           <div>
-            <h2 class="title fs-700 text-neutral-100 fw-semi-bold">Main Sponsors</h2>
+            <h2 class="title fs-700 text-accent-100: #F8F8F8; fw-semi-bold">Main Sponsors</h2>
             <div class="indicator"></div>
           </div>
           <div class="sponsors-icon-container">
@@ -163,11 +183,14 @@
   <footer>
     <div class="container">
       <div class="footer-container">
-        <div>
+        <div class="newslogo">
           <a href="index.html"><img src="img/newslogo.png" alt="logo"></a>
         </div>
         <div>
             <p>Copyright 2022. All Rights Reserved</p>
+            <div class="lorem">
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto<br> at inventore maxime vel qui, commodi et! Eveniet dolorem saepe consectetur.</p>
+            </div>
         </div>
       </div>
     </div>
