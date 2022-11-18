@@ -32,7 +32,17 @@
 - GitHub
   - Use GitHub Pages to deploy web pages.
 
-## Live Demo
+# Live Demo
+## Workflow screenshots
+
+![Web capture_18-11-2022_221448_127 0 0 1](https://user-images.githubusercontent.com/90766123/202796490-2f6e7925-e51b-4df8-b88f-dbc29f5cd38c.jpeg)
+
+![Web capture_18-11-2022_221850_127 0 0 1](https://user-images.githubusercontent.com/90766123/202796311-3de3acd9-94fa-415f-a880-b788f4f5b164.jpeg)
+![Web capture_18-11-2022_222031_127 0 0 1](https://user-images.githubusercontent.com/90766123/202796548-2297250d-1b8e-4508-b658-019224e3b2b1.jpeg)
+![Web capture_18-11-2022_222544_127 0 0 1](https://user-images.githubusercontent.com/90766123/202796603-8e3d0621-5b3a-45d4-9de8-6cc466633931.jpeg)
+
+
+
 
 - [Live link](https://187jjay187.github.io/cap-tech-page/)
 
